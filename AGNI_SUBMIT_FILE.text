@@ -1,0 +1,18 @@
+import java.util.Scanner;
+fun main() {
+  
+ val input = Scanner(System. in)
+ 
+  print("Input Nama Anda : ") 
+  val nama = input.nextLine()
+  
+  print("Input Kelas Anda : ")
+  val kelas = input.nextLine()
+  
+  print("Input No Absensi Anda : ")
+  val absen = input.nextInt()
+  
+  println("")
+  
+  println("Selamat pagi bu, saya $nama absen $absen dari $kelas")
+}
